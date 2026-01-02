@@ -9,10 +9,16 @@ import SwitchMui from './components/SwitchMui.jsx'
 import RatingMui from './components/RatingMui.jsx'
 import AutoCompleteMui from './components/AutoCompleteMui.jsx'
 import All from './components/All.jsx'
+import BoxMui from './components/BoxMui.jsx'
+import StackMui from './components/StackMui.jsx'
+import GridMui from './components/StackMui.jsx'
+import GridMui1 from './components/GridMui1.jsx'
+import CardMui from './components/CardMui.jsx'
+import All2 from './components/All2.jsx'
 function App() {
   return (
     <>
-     {/* <Input/>
+      {/* <Input/>
      <Button1/>
      <Typo/>    
      <SelectMui/>
@@ -20,8 +26,13 @@ function App() {
      <CheckboxMui/>
      <SwitchMui/>
      <RatingMui/>
-     <AutoCompleteMui/> */}
-     <All/>
+     <AutoCompleteMui/> 
+     <All/>  
+     <BoxMui/>  
+     <StackMui/> 
+     <GridMui1/>  
+     <CardMui/>  */}
+     <All2/>
     </>
   )
 }
