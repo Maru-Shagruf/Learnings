@@ -10,10 +10,12 @@ import Grandparent from './props&state/Drill';
 import Room from './props&state/State';
 import LikeButton from './props&state/Like';
 import LoginForm from './login/loginform';
+import StudentManager from './login/StudentManager';
 function App() {
   return (
     <>
-    <LoginForm/>
+    <StudentManager/>
+    {/* <LoginForm/> */}
     </>
 
 
