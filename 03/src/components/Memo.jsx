@@ -7,7 +7,7 @@ function Memo() {
   // 1. Only runs this slow math when 'number' changes.
   // changing 'dark' (color) will NOT trigger this log.
   const doubleNumber = useMemo(() => {
-    console.log("⚠️ Running Slow Math...");
+    console.log(" Running Slow Math...");
     return number * 2;
   }, [number]); 
 
