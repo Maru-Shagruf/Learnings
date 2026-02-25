@@ -12,8 +12,8 @@ function Home() {
     <div style={{ padding: 20, border: "2px solid green" }}>
       <h2> Home (Counter)</h2>
       <h1>Count: {count}</h1>
-      <button onClick={() => dispatch(decrement())}>➖ Minus</button>
-      <button onClick={() => dispatch(increment())} style={{ marginLeft: 10 }}>➕ Plus</button>
+      <button onClick={() => dispatch(decrement())}>Minus</button>
+      <button onClick={() => dispatch(increment())} style={{ marginLeft: 10 }}>Plus</button>
     </div>
   );
 }
@@ -25,10 +25,10 @@ function Profile() {
 
   return (
     <div style={{ padding: 20, border: "2px solid blue" }}>
-      <h2>👤 Profile (User)</h2>
+      <h2> Profile (User)</h2>
       <h1>User: {user}</h1>
-      <button onClick={() => dispatch(fetchUser())}>⬇️ Login (Fetch)</button>
-      <button onClick={() => dispatch(logout())} style={{ marginLeft: 10 }}>🚪 Logout</button>
+      <button onClick={() => dispatch(fetchUser())}> Login (Fetch)</button>
+      <button onClick={() => dispatch(logout())} style={{ marginLeft: 10 }}> Logout</button>
     </div>
   );
 }
