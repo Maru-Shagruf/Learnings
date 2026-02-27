@@ -1,0 +1,44 @@
+Step 1: Normal User Token
+
+
+Send POST to http://localhost:3000/login 
+
+
+with Body: {"role": "user"}
+
+Copy the token.
+
+
+
+
+Step 2: Test /profile
+
+Change to GET http://localhost:3000/profile
+
+auth>>bearer>>paste token
+
+
+Send! You will see your profile data.
+
+Step 3: Test /admin-dashboard
+
+Change URL to GET http://localhost:3000/admin-dashboard.
+
+Keep the same token.
+
+response: "Access denied. Admins only!". 
+
+
+
+
+
+Step 4: Get an Admin Token
+
+
+Send POST to /login with Body: {"role": "admin"}.
+
+Copy  new token.
+
+Auth -> Bearer tab.
+
+Request /admin-dashboard again. 

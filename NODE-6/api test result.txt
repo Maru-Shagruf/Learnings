@@ -1,0 +1,47 @@
+(POST http://localhost:3000/register)
+
+JSON
+{
+  "email": "sam@test.com",
+  "password": "mypassword123"
+}
+
+
+
+
+
+Result: `"User registered!"*. 
+
+
+
+
+(POST http://localhost:3000/login)
+
+
+same email, but wrong password:
+
+JSON
+{
+  "email": "sam@test.com",
+  "password": "wrongpassword"
+}
+
+
+
+Result: "Wrong password!"*. .
+
+
+
+
+(POST http://localhost:3000/login)
+
+
+Sending the correct email and password.
+Result:  JWT Token:
+
+JSON
+{
+  "success": true,
+  "message": "Logged in!",
+  "token": "ey.."
+}

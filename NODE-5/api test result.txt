@@ -1,0 +1,39 @@
+Where to send the request:
+Method: Change the dropdown to POST
+
+URL: http://localhost:3000/users
+
+
+JSON
+{
+  "name": "Sam",
+  "email": "sam@example.com"
+}
+
+
+JSON response
+
+{
+  "success": true,
+  "message": "User created successfully!",
+  "data": { "name": "Sam", "email": "sam@example.com" }
+}
+
+
+
+
+
+
+JSON
+{
+  "name": "Al",
+  "email": "al@example.com"
+}
+
+
+JSON response
+
+{
+  "success": false,
+  "message": "\"name\" length must be at least 3 characters long"
+}
