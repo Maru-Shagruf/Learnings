@@ -1,0 +1,60 @@
+ 1. Login & Get Tokens
+
+
+POST http://localhost:3000/login
+
+Body (JSON): {"username": "Sam"}
+
+Result: You get an accessToken and a refreshToken. Copy both!
+
+
+
+
+
+
+
+ 2. Access the Dashboard
+
+GET http://localhost:3000/dashboard
+
+Auth Tab -> Bearer: Paste the accessToken.
+
+Result: "Welcome to the secure dashboard, Sam!"
+
+
+
+
+
+
+
+ 3. Wait 15 Seconds & Try Again
+
+Click Send again on the dashboard route after 50 seconds.
+
+Result: "Token Expired or Invalid." 
+
+
+
+
+
+
+ 4. Use Refresh Token to get a new Access Token
+
+POST http://localhost:3000/refresh
+
+Body (JSON): {"token": "PASTE_YOUR_LONG_REFRESH_TOKEN_HERE"}
+
+Result: The server gives you a brand new accessToken! You can now access the dashboard again.
+
+
+
+
+
+
+
+ 5. Logout
+POST http://localhost:3000/logout
+
+Body (JSON): {"token": "PASTE_YOUR_LONG_REFRESH_TOKEN_HERE"}
+
+Result: Logged out. If you try to use that refresh token again, the server will reject it!
