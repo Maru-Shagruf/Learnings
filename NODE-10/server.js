@@ -5,9 +5,10 @@ import authRoutes from './routes/authRoutes.js';
 const app = express();
 app.use(express.json());
 
-
+// 1. Connect the routes
 app.use('/api/auth', authRoutes);
 
+// 2. Connect to Database and Start Server
 mongoose.connect('mongodb://127.0.0.1:27017/enterprise_db')
   .then(() => {
     console.log(' MongoDB Connected');
