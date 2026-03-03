@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 
-// Mount Routes
+
 app.use('/api/auth', authRoutes);
 app.use('/api/products', productRoutes);
 
