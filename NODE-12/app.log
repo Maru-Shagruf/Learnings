@@ -1,0 +1,27 @@
+{"level":"info","message":"🚀 Server started on port 3000"}
+{"level":"info","message":"🚦 Traffic: GET request to /"}
+{"level":"info","message":"🚦 Traffic: GET request to /favicon.ico"}
+{"level":"info","message":"🚦 Traffic: GET request to /"}
+{"level":"info","message":"🚦 Traffic: GET request to /"}
+{"level":"info","message":"🚦 Traffic: GET request to /"}
+{"level":"info","message":"🚦 Traffic: GET request to /"}
+{"level":"info","message":"🚦 Traffic: GET request to /"}
+{"level":"info","message":"🚦 Traffic: GET request to /"}
+{"level":"info","message":"🚦 Traffic: GET request to /"}
+{"level":"info","message":"🚦 Traffic: GET request to /"}
+{"level":"info","message":"🚦 Traffic: GET request to /crash"}
+{"level":"error","message":"🚨 Crash Report: Database exploded!"}
+{"level":"info","message":"🚦 Traffic: GET request to /crash"}
+{"level":"error","message":"🚨 Crash Report: Database exploded!"}
+{"level":"info","message":"🚦 Traffic: GET request to /crash"}
+{"level":"error","message":"🚨 Crash Report: Database exploded!"}
+{"level":"info","message":"🚦 Traffic: GET request to /crash"}
+{"level":"error","message":"🚨 Crash Report: Database exploded!"}
+{"level":"info","message":"🚦 Traffic: GET request to /crash"}
+{"level":"error","message":"🚨 Crash Report: Database exploded!"}
+{"level":"info","message":"🚦 Traffic: GET request to /crash"}
+{"level":"error","message":"🚨 Crash Report: Database exploded!"}
+{"level":"info","message":"🚦 Traffic: GET request to /crash"}
+{"level":"error","message":"🚨 Crash Report: Database exploded!"}
+{"level":"info","message":"🚦 Traffic: GET request to /crash"}
+{"level":"error","message":"🚨 Crash Report: Database exploded!"}
