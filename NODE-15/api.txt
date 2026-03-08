@@ -1,0 +1,11 @@
+only Laptops:
+http://localhost:3000/products?category=laptop
+
+most expensive items first (Highest to Lowest):
+http://localhost:3000/products?sort=-price
+
+Pagination Test (Page 2, showing 2 items per page):
+http://localhost:3000/products?page=2&limit=2
+
+Cheapest phones, Page 1, 2 max:
+http://localhost:3000/products?category=phone&sort=price&page=1&limit=2
