@@ -5,7 +5,7 @@ const app = express();
 
 
 const redisClient = createClient({
-  url: 'rediss://default:ASSvAAImcDFhMGYyODc0ZjI3ZmM0OThjYjE5NjI2MDkzZjdmNjQxOXAxOTM5MQ@intimate-kite-9391.upstash.io:6379'
+  url: ''
 });
 redisClient.on('error', (err) => console.log('Redis Error:', err));
 
