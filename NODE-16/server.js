@@ -5,7 +5,7 @@ const app = express();
 
 
 const redisClient = createClient({
-  url: ''
+  url: ''  //redis url here
 });
 redisClient.on('error', (err) => console.log('Redis Error:', err));
 
