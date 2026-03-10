@@ -35,7 +35,7 @@ app.use((req, res, next) => {
 
 //  3. CACHING SETUP 
 
-const redisClient = createClient({ url: '' });
+const redisClient = createClient({ url: '' });// redir url here
 await redisClient.connect();
 
 
